@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- <div class="login" >
+            <form id="loginform">
+                <h1>Login</h1>
+                <h3>User Name</h3>
+                <input type="text" name="text" placeholder="User name" required="">
+                <h3>Password</h3>
+                <input type="password" name="Password" placeholder="Password" required="">
+
+
+                <span class="psw"> <a href="#" id="forgot_btn">Forgot password?</a></span>
+                <div class="loginButton"><button>Login</button><button id="register_btn">Ragister</button>
+                </div>
+         
+            <div class="icons_login">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+
+            </div>   </form>
+        </div>
+
+    </div> -->
+                             <!-- create account serction -->
+
+                             <div class="register_sec" >
+                                <form id="register">
+                                    <h1>Register Heare</h1>
+                                    <h3>Email</h3>
+                                    <input type="text" name="text" placeholder="Email" required="">
+                                    <h3>Password</h3>
+                                    <input type="password" name="Password" placeholder=" Enter Password" required="">
+                                    <h3> Renter Password</h3>
+                                    <input type="password" name="Password" placeholder=" Renter Password" required="">
+
+                                    <button>Ragister</button>
+                                    
+                                </form>
+                            </div>
+
+                  <!-- forgate password  -->
+            
+                  <!-- <div class="Forgot " id="forgot_section">
+                    <form >
+                        <h2 id="forgot_btn" >Forgot your password?</h2>
+                        
+                        <h3> New Password</h3>
+                        <input type="password" name="Password" placeholder=" Enter Password" required="">
+                        <h3>Confirm new Password</h3>
+                        <input type="password" name="Password" placeholder=" Renter Password" required="">
+                        <button>Reset password</button>
+                        
+                    </form>
+                    <div class="icons">
+
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+        
+                    </div>
+                </div> -->
+
+<script>
+let register_btn = document.getElementById("register_btn");
+let forgot_btn = document.getElementById("forgot_btn");
+let loginform = document.getElementById("loginform");
+let register = document.getElementById("register");
+let forgot_section = document.getElementById("forgot_section");
+
+
+
+
+document.addEventListener("loginform").onclick = abc;
+
+Function abc (){
+
+   document.getElementById("loginform").style.display="none";
+    document.getElementById("register").style.display="block";
+
+}
+
+
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
